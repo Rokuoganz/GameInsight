@@ -1,0 +1,53 @@
+/* Layout.css - sfondo e stile comune per tutte le pagine principali */
+.page-container {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* ⬅️ CAMBIATO DA center */
+  align-items: center;
+  background-image: url("../assets/SfondoGaming.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  padding-top: 60px; /* ⬅️ AGGIUNTO per spaziare dall'alto */
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Overlay scuro per migliorare la leggibilità del testo */
+.page-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+/* Tutto ciò che è dentro page-container resta cliccabile e visibile */
+.page-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Testo e titoli */
+.page-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #00c4b4;
+}
+
+.page-container p {
+  max-width: 700px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.page-container p:last-child {
+  margin-top: 30px;
+  opacity: 0.8;
+}

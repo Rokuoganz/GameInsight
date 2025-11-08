@@ -1,0 +1,72 @@
+/* === styles/management.css === */
+
+/* Contenitore principale */
+.management-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Titoli principali */
+.management-container h1 {
+  margin-bottom: 20px;
+}
+
+/* Form di inserimento */
+.management-form {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.management-form input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.management-form button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.management-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Tabella */
+.management-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+.management-table th,
+.management-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.management-table th {
+  background-color: #f2f2f2;
+}
+
+/* Pulsanti azione */
+.management-table button {
+  padding: 5px 8px;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.management-table button:hover {
+  background-color: #a71d2a;
+}
