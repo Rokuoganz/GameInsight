@@ -5,6 +5,11 @@ Repository del progetto "GameInsight" per il corso di Basi di Dati 2 del Corso d
 GameInsight è una piattaforma interattiva per analizzare e gestire i dati relativi alle sessioni di gioco. Contiene diverse sezioni: HomePage, Giocatori, Sessioni e Analisi, ognuna delle quali con le sue peculiarità.
 
 ## Autori
+<a href="https://github.com/Rokuoganz/GameInsight/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Rokuoganz/GameInsight" />
+</a>
+
+* [Francesco Ferrara](https://github.com/Rokuoganz)
 
 ## Obiettivi
 - Il progetto ha come obiettivo principale lo sviluppo di un sistema interattivo, sotto forma
