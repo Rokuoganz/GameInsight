@@ -1,0 +1,12 @@
+{
+  "name": "gaming-platform",
+  "version": "1.0.0",
+  "description": "Piattaforma di analisi dati per gaming online",
+  "scripts": {
+    "reload-db": "node load_data.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "mongoose": "^8.19.2"
+  }
+}
