@@ -39,12 +39,12 @@ Il dataset è progettato per rappresentare dati relativi al mondo del gaming onl
 - Vite: strumento di build e sviluppo rapido per progetti frontend basati su JavaScript, usato per ottimizzare e avviare il client React.
 
 ## Installazione e Uso
-1. Clonare il repository GitHub contenente il progetto sul proprio PC.
-2. Installare Node.js, npm e MongoDB e verificare che siano correttamente raggiungibili dai terminali, aggiornando se necessario i PATH di sistema.
-3. Configurare la stringa di connessione a MongoDB nel file .env del server, assicurandosi che punti al database corretto.
-4. Ripopolare il database eseguendo, nella directory del database, il comando: npm run reload-db
-5. Avviare il backend e il frontend eseguendo nelle rispettive cartelle tramite il comando npm run dev.
-6. Su un browser cercare http://localhost:5173/.
+1. Clonare il repository GitHub del progetto sul proprio PC.
+2. Installare Node.js, npm e MongoDB e verificare che siano correttamente raggiungibili dai terminali, aggiornando la variabile path contenuta nelle variabili d'ambiente relative al sistema.
+4. Connettersi al database usando la stringa di connessione, contenuta nel file [ProgettoBD2/server/.env](ProgettoBD2/server/.env), attraverso MongoDB Compass oppure attraverso l'estensione di MongoDB per Visual Studio Code.
+7. Ripopolare il database eseguendo su CMD, nella directory del database, il comando npm run reload-db
+8. Avviare 2 CMD separati, posizionarsi nella cartella server per il primo e nella cartella client per il secondo, ed eseguire il comando npm run dev in ognuna.
+9. Attraverso un browser, come Google Chrome, ricercare http://localhost:5173/.
 
 ## Struttura del Progetto
 - [DocumentazioneGameInsight.pdf](DocumentazioneGameInsight.pdf): Documentazione del progetto.
